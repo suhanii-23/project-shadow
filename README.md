@@ -2,17 +2,17 @@ Project SHADOW is a simulated AI-powered intelligence assistant designed to resp
 
 📌 Features
  
- 1. Clearance Levels: 5 custom agent tiers from Novice Operative to Intelligence Overlord, each with unique tone and response style.
+1. Agent Levels: 5 clearance tiers (Novice Operative → Intelligence Overlord) with distinct tones.
 
- 2. Classified Document Ingestion: Upload any intelligence manual or case framework PDF/DOCX.
+2. Doc Ingestion: Upload PDF/DOCX intel manuals for parsing.
 
- 3. Vector Search with FAISS: Finds semantically relevant context for user queries using vector similarity.
+3. Vector Search: Uses ChromaDB + OpenAI embeddings for semantic retrieval.
 
- 4. Hybrid Retrieval & Response: Combines graph traversal logic, LangChain-based QA, and predefined rule mappings (100+ rules).
+4. Hybrid QA System: Combines LangChain, graph logic, and 100+ rule mappings.
 
- 5. Streamlit Interface: User-friendly frontend for real-time interaction and query simulation.
+5. Streamlit UI (Optional): Frontend for interactive query simulation.
 
- 6. Kaggle-Compatible Notebook: Uses only Kaggle-supported libraries (no chromadb) with FAISS for vector search.
+6. Kaggle-Compatible Notebook: Core logic works with Kaggle-supported libraries.
 
 project structure:
 
