@@ -1,4 +1,5 @@
 Project SHADOW is a simulated AI-powered intelligence assistant designed to respond to RAW agent queries based on classified documents. It leverages document retrieval, semantic search, and role-based agent levels to simulate real-world intelligence workflows.
+
 📌 Features
  Clearance Levels: 5 custom agent tiers from Novice Operative to Intelligence Overlord, each with unique tone and response style.
 
