@@ -17,11 +17,11 @@ Project SHADOW is a simulated AI-powered intelligence assistant designed to resp
 project structure:
 
 project-shadow/
-├── project-shadow.ipynb       ← Main notebook with full implementation
-├── .env                        ← API keys and config (local use)
-├── README.md                   ← You're reading it
-├── /docs                       ← Supporting intelligence manuals
-└── /streamlit_app              ← Optional: Web app for deployment
+1. project-shadow.ipynb       ← Main notebook with full implementation
+2. .env                        ← API keys and config (local use)
+3. README.md                   ← You're reading it
+4.  /docs                       ← Supporting intelligence manuals
+5. /streamlit_app              ← Optional: Web app for deployment
 
 ⚙️ How It Works
 
