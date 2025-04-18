@@ -1,26 +1,30 @@
 Project SHADOW is a simulated AI-powered intelligence assistant designed to respond to RAW agent queries based on classified documents. It leverages document retrieval, semantic search, and role-based agent levels to simulate real-world intelligence workflows.
 
 📌 Features
- Clearance Levels: 5 custom agent tiers from Novice Operative to Intelligence Overlord, each with unique tone and response style.
+ 
+ 1. Clearance Levels: 5 custom agent tiers from Novice Operative to Intelligence Overlord, each with unique tone and response style.
 
- Classified Document Ingestion: Upload any intelligence manual or case framework PDF/DOCX.
+ 2. Classified Document Ingestion: Upload any intelligence manual or case framework PDF/DOCX.
 
- Vector Search with FAISS: Finds semantically relevant context for user queries using vector similarity.
+ 3. Vector Search with FAISS: Finds semantically relevant context for user queries using vector similarity.
 
- Hybrid Retrieval & Response: Combines graph traversal logic, LangChain-based QA, and predefined rule mappings (100+ rules).
+ 4. Hybrid Retrieval & Response: Combines graph traversal logic, LangChain-based QA, and predefined rule mappings (100+ rules).
 
- Streamlit Interface: User-friendly frontend for real-time interaction and query simulation.
+ 5. Streamlit Interface: User-friendly frontend for real-time interaction and query simulation.
 
- Kaggle-Compatible Notebook: Uses only Kaggle-supported libraries (no chromadb) with FAISS for vector search.
+ 6. Kaggle-Compatible Notebook: Uses only Kaggle-supported libraries (no chromadb) with FAISS for vector search.
 
 project structure:
+
 project-shadow/
 ├── project-shadow.ipynb       ← Main notebook with full implementation
 ├── .env                        ← API keys and config (local use)
 ├── README.md                   ← You're reading it
 ├── /docs                       ← Supporting intelligence manuals
 └── /streamlit_app              ← Optional: Web app for deployment
+
 ⚙️ How It Works
+
 1. Upload Intelligence Documents
 Documents like SECRET INFO MANUAL.pdf and RAG CASE RESPONSE FRAMEWORK.docx are parsed and chunked for embeddings.
 
